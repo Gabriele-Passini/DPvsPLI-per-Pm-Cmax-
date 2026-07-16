@@ -7,9 +7,9 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent))
 
-from solvers.pli_solver import LicenseLimitExceeded, solve_pli  # noqa: E402
+from pli_solver import LicenseLimitExceeded, solve_pli  # noqa: E402
 
 
 def main():
